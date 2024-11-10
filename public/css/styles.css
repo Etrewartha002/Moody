@@ -46,6 +46,16 @@ button:hover {
 h4{
     font-family: "Inconsolata", monospace;
 }
-#journal{
-    height: 80%;
+textarea{
+   width: 520px;
+   height: 475px;
+   border: solid 3px #d1d1d1;
+   border-radius: 5px;
+   background-color: whitesmoke;
+   outline: none;
+   resize: vertical;     
+}
+#input-holder{
+    display: flex;
+    justify-content: center;
 }

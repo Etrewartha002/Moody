@@ -5,11 +5,12 @@ h1{
     font-size: 100px;
 }
 button{
-    width: 16%;
-    border-radius: 5px;
-    border: 1px solid #ddd;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    flex: 1; /* Make buttons take equal width */
+    padding: 10px;
+    border: none; /* Remove individual button borders */
     outline: none;
+    background-color: rgb(246, 186, 229); /* Default background color */
+    cursor: pointer;
     transition: box-shadow 0.3s, border-color 0.3s;
    
 }

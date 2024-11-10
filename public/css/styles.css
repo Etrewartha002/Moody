@@ -26,3 +26,6 @@ button:focus{
 body{
     background-color: bisque;
 }
+button:hover {
+    background-color: rgb(251, 159, 225); 
+  }

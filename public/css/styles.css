@@ -3,6 +3,15 @@ h1{
     font-family: "Lobster", sans-serif;
     color: rgb(246, 186, 229);
     font-size: 100px;
+    margin: 10px;
+}
+.h1-like{
+    text-align: center;
+    font-family: "Lobster", sans-serif;
+    color: rgb(246, 186, 229);
+    font-size: 25px;
+    margin: 2.5px;
+    margin-top: 10px;
 }
 button{
     flex: 1; /* Make buttons take equal width */
@@ -20,8 +29,9 @@ button:focus{
 }
 #button-container{
     display: flex;
-    align-content: center;
+    align-content: baseline;
     justify-content: center;
+    margin-top: 200px;
 }
 body{
     background-color: bisque;
@@ -29,3 +39,13 @@ body{
 button:hover {
     background-color: rgb(251, 159, 225); 
   }
+  #inline{
+    display: flex;
+    justify-content: center;
+  }
+h4{
+    font-family: "Inconsolata", monospace;
+}
+#journal{
+    height: 80%;
+}

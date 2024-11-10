@@ -1,5 +1,9 @@
 
 document.querySelector('button').addEventListener("click", (event) => {
     const clickedButton = event.target;
-    clickedButton.setAttribute('hidden', 'true');
+    document.querySelector("#part1").setAttribute('hidden', 'true');
+    const buttonContent = clickedButton.innerHTML;
+    if (buttonContent == 'happy') {
+        document.querySelector("body").style.backgroundColor = 'blue';
+    }
 });
